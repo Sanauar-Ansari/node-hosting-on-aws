@@ -16,6 +16,10 @@ app.get("/contact",(req,res)=>{
     res.send("Welcom to hosting CONTACT page")
 })
 
+app.get("/abouttwo",(req,res)=>{
+    res.send("Welcom to hosting About Two page")
+})
+
 
 const port=process.env.PORT || 9000;
 app.listen(port,(err)=>{
