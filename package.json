@@ -1,0 +1,18 @@
+{
+  "name": "aws-node-host",
+  "version": "1.0.0",
+  "description": "ptactice to host on aws",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanauar ansari",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  },
+  "type": "module"
+}
